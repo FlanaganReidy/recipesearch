@@ -9,6 +9,7 @@
 
 let submit = document.querySelector('.submitbutton');
 submit.addEventListener('click', function(){
+  document.querySelector('.container').innerHTML = '';
   let input = document.querySelector('.searchword');
   console.log(input.value);
   searching(input.value);
