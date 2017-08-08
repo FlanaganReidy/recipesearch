@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+
+}
+.recipe{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-direction: column;
+  margin: 20px 0;
+
+  /*width : 200px;
+  height: 200px;*/
+  flex-basis: 18%;
+  border: solid 1px black;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
